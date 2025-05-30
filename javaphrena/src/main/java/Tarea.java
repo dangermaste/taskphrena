@@ -147,7 +147,7 @@ public class Tarea {
         System.out.print(Colores.YELLOW);
         System.out.println("╔═════════════════════════════════════════════════════════════════════════════════════════╗");
         System.out.println("║                                                                                         ║");
-        System.out.println("║                            - L I S T A   D E   T A R E A S -                            ║");
+        System.out.println("║                           - " + Colores.RESET + Colores.BOLD + " L I S T A   D E   T A R E A S " + Colores.YELLOW + "-                            ║");
         System.out.println("║                                                                                         ║");
         System.out.println("╚═════════════════════════════════════════════════════════════════════════════════════════╝");
         if (tareas.isEmpty()) {
