@@ -20,25 +20,25 @@ To get started with Taskphrena locally, follow these steps:
 
 2. **Install XAMPP:**
 
-    Necesitarás XAMPP para poder ejecutar Taskphrena, ya que es el programa que tiene Apache (el servidor web) y MySQL (la base de datos).
+    You will need XAMPP to be able to run Taskphrena, as it is the program that runs Apache (the web server) and MySQL (the database).
 
-    Si no tienes XAMPP, puedes descargarlo desde aquí.
+    If you don't have XAMPP, you can download it from here.
     ```bash
     https://www.apachefriends.org/es/index.html
     ```
-    Una vez descargado, instala y abre XAMPP.
+    Once downloaded, install and open XAMPP.
 
-    En el panel de control de XAMPP, haz clic en Start para iniciar Apache y MySQL. Esto hará que tu computadora pueda servir la aplicación web y manejar la base de datos.
+    In the XAMPP control panel, click Start to start Apache and MySQL. This will enable your computer to serve the web application and manage the database.
 
 3. **Configurar la base de datos:**
 
-    Taskphrena necesita una base de datos para guardar las tareas que creas. Necesitas configurarla en MySQL:
+    Taskphrena needs a database to store the tasks it creates. You need to set it up in MySQL:
 
-    Abre el panel de control de XAMPP y haz clic en Admin al lado de MySQL. Esto abrirá phpMyAdmin en tu navegador.
+    Open the XAMPP control panel and click Admin next to MySQL. This will open phpMyAdmin in your browser.
 
-    En phpMyAdmin, importa taskphrena.sql.
+    In phpMyAdmin, import taskphrena.sql.
 
-    Asegurate de que MySQL tiene abierto el puerto 3306!
+    Make sure MySQL has port 3306 open.
 
 
 ## 🎨 Technologies Used
