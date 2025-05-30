@@ -1,4 +1,4 @@
-# Taskphrena v2.3 ✨
+# Taskphrena v2.4 ✨
 
 Taskphrena is a **task management tool** designed with simplicity and nostalgia in mind. Born in 2016, the project started as a retro-styled terminal application, evolving over time into a modern yet minimalist web app.
 
@@ -30,7 +30,7 @@ To get started with Taskphrena locally, follow these steps:
 
     In the XAMPP control panel, click Start to start Apache and MySQL. This will enable your computer to serve the web application and manage the database.
 
-3. **Configurar la base de datos:**
+3. **Configure the data base:**
 
     Taskphrena needs a database to store the tasks it creates. You need to set it up in MySQL:
 
