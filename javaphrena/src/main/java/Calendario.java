@@ -176,15 +176,18 @@ public class Calendario {
         System.out.println("\b╯         " + Colores.RESET + "║");
         System.out.println("╠─────────────────────────────────────────────────────────────────────────────────────────╣");
         System.out.println("║       Pulsa [ " + Colores.PURPLE + Colores.BOLD + "1" + Colores.RESET + " ] para ver el "  + Colores.PURPLE + Colores.BOLD +  "MES ANTERIOR" + Colores.RESET + ", Pulsa [ " + Colores.CYAN + Colores.BOLD + "2 " + Colores.RESET + "] para ver el " + Colores.CYAN + Colores.BOLD + "MES SIGUIENTE       " + Colores.RESET + "║");
+        System.out.println("╚═════════════════════════════════════════════════════════════════════════════════════════╝");
+        System.out.print("║-\\ ");
+        String space = scanner.nextLine();
         String d = scanner.nextLine();
         if (d.equals("1")) {
             retrocederMes(scanner, usuarioLogin);
         } else if (d.equals("2")) {
             avanzarMes(scanner, usuarioLogin);
         }
-        System.out.println("╚═════════════════════════════════════════════════════════════════════════════════════════╝");
+
         // Prompt to press space when the user wants to go back
-        String space = scanner.nextLine();
+        space = scanner.nextLine();
     }
 
     /**
