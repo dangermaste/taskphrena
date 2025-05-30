@@ -1,0 +1,14 @@
+Espero que estés leyendo esto si vas a ver el proyecto,
+
+presentándolo en clase me he percatado de un error en la base de datos.
+
+Si por lo que sea, no funciona la base de datos, por favor:
+
+DENTRO DE LA CARPETA BACK-UPHRENA, HAY UN Z.SQL, COPIE SU CONTENIDO DENTRO
+DE XAMPP Y CONÉCTESE.
+
+SI POR LO QUE SEA, TAMPOCO DETECTA LA BASE DE DATOS, CAMBIE EL PUERTO DE MYSQL EN LA CLASE CONEXION.JAVA.
+
+Gracias por leer
+
+- Tomas
